@@ -1,0 +1,215 @@
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --codepen-io-archivo-medium-font-family: "Archivo", Helvetica;
+  --codepen-io-archivo-medium-font-size: 16px;
+  --codepen-io-archivo-medium-font-style: normal;
+  --codepen-io-archivo-medium-font-weight: 500;
+  --codepen-io-archivo-medium-letter-spacing: 0px;
+  --codepen-io-archivo-medium-line-height: 27.200000762939453px;
+  --codepen-io-archivo-regular-font-family: "Archivo", Helvetica;
+  --codepen-io-archivo-regular-font-size: 18px;
+  --codepen-io-archivo-regular-font-style: normal;
+  --codepen-io-archivo-regular-font-weight: 400;
+  --codepen-io-archivo-regular-letter-spacing: 0px;
+  --codepen-io-archivo-regular-line-height: 30.600000381469727px;
+  --codepen-io-archivo-semibold-font-family: "Archivo", Helvetica;
+  --codepen-io-archivo-semibold-font-size: 18px;
+  --codepen-io-archivo-semibold-font-style: normal;
+  --codepen-io-archivo-semibold-font-weight: 600;
+  --codepen-io-archivo-semibold-letter-spacing: 0px;
+  --codepen-io-archivo-semibold-line-height: 30.600000381469727px;
+  --codepen-io-archivo-semibold-upper-font-family: "Archivo", Helvetica;
+  --codepen-io-archivo-semibold-upper-font-size: 16px;
+  --codepen-io-archivo-semibold-upper-font-style: normal;
+  --codepen-io-archivo-semibold-upper-font-weight: 600;
+  --codepen-io-archivo-semibold-upper-letter-spacing: 0px;
+  --codepen-io-archivo-semibold-upper-line-height: 27.200000762939453px;
+  --codepen-io-lato-regular-font-family: "Lato", Helvetica;
+  --codepen-io-lato-regular-font-size: 15px;
+  --codepen-io-lato-regular-font-style: normal;
+  --codepen-io-lato-regular-font-weight: 400;
+  --codepen-io-lato-regular-letter-spacing: 0px;
+  --codepen-io-lato-regular-line-height: 18px;
+  --codepen-io-semantic-button-font-family: "Archivo", Helvetica;
+  --codepen-io-semantic-button-font-size: 18px;
+  --codepen-io-semantic-button-font-style: normal;
+  --codepen-io-semantic-button-font-weight: 600;
+  --codepen-io-semantic-button-letter-spacing: 0px;
+  --codepen-io-semantic-button-line-height: 30.600000381469727px;
+  --codepen-io-semantic-heading-1-upper-font-family: "Dela Gothic One",
+    Helvetica;
+  --codepen-io-semantic-heading-1-upper-font-size: 76px;
+  --codepen-io-semantic-heading-1-upper-font-style: normal;
+  --codepen-io-semantic-heading-1-upper-font-weight: 400;
+  --codepen-io-semantic-heading-1-upper-letter-spacing: -2px;
+  --codepen-io-semantic-heading-1-upper-line-height: 87.4000015258789px;
+  --codepen-io-semantic-heading-2-upper-font-family: "Dela Gothic One",
+    Helvetica;
+  --codepen-io-semantic-heading-2-upper-font-size: 56px;
+  --codepen-io-semantic-heading-2-upper-font-style: normal;
+  --codepen-io-semantic-heading-2-upper-font-weight: 400;
+  --codepen-io-semantic-heading-2-upper-letter-spacing: -1.5px;
+  --codepen-io-semantic-heading-2-upper-line-height: 67.19999694824219px;
+  --codepen-io-semantic-heading-3-upper-font-family: "Dela Gothic One",
+    Helvetica;
+  --codepen-io-semantic-heading-3-upper-font-size: 48px;
+  --codepen-io-semantic-heading-3-upper-font-style: normal;
+  --codepen-io-semantic-heading-3-upper-font-weight: 400;
+  --codepen-io-semantic-heading-3-upper-letter-spacing: -1.5px;
+  --codepen-io-semantic-heading-3-upper-line-height: 57.599998474121094px;
+  --codepen-io-semantic-heading-4-upper-font-family: "Dela Gothic One",
+    Helvetica;
+  --codepen-io-semantic-heading-4-upper-font-size: 40px;
+  --codepen-io-semantic-heading-4-upper-font-style: normal;
+  --codepen-io-semantic-heading-4-upper-font-weight: 400;
+  --codepen-io-semantic-heading-4-upper-letter-spacing: -1px;
+  --codepen-io-semantic-heading-4-upper-line-height: 56px;
+  --codepen-io-semantic-heading-5-upper-font-family: "Dela Gothic One",
+    Helvetica;
+  --codepen-io-semantic-heading-5-upper-font-size: 32px;
+  --codepen-io-semantic-heading-5-upper-font-style: normal;
+  --codepen-io-semantic-heading-5-upper-font-weight: 400;
+  --codepen-io-semantic-heading-5-upper-letter-spacing: -1px;
+  --codepen-io-semantic-heading-5-upper-line-height: 44.79999923706055px;
+  --codepen-io-semantic-heading-6-upper-font-family: "Dela Gothic One",
+    Helvetica;
+  --codepen-io-semantic-heading-6-upper-font-size: 24px;
+  --codepen-io-semantic-heading-6-upper-font-style: normal;
+  --codepen-io-semantic-heading-6-upper-font-weight: 400;
+  --codepen-io-semantic-heading-6-upper-letter-spacing: -0.5px;
+  --codepen-io-semantic-heading-6-upper-line-height: 33.599998474121094px;
+  --codepen-io-semantic-link-font-family: "Inter", Helvetica;
+  --codepen-io-semantic-link-font-size: 15px;
+  --codepen-io-semantic-link-font-style: normal;
+  --codepen-io-semantic-link-font-weight: 400;
+  --codepen-io-semantic-link-letter-spacing: 0px;
+  --codepen-io-semantic-link-line-height: 18px;
+  --codepenioabbey: rgba(83, 93, 94, 1);
+  --codepenioalto-5: rgba(217, 217, 217, 0.05);
+  --codepenioalto-50: rgba(217, 217, 217, 0.5);
+  --codepenioapple: rgba(99, 147, 55, 1);
+  --codepenioathens-gray: rgba(246, 247, 249, 1);
+  --codepenioatlantis: rgba(178, 210, 55, 1);
+  --codepeniobitter-lemon-50: rgba(201, 236, 6, 0.5);
+  --codepenioblack: rgba(0, 0, 0, 1);
+  --codepenioblack-10: rgba(0, 0, 0, 0.1);
+  --codepenioblack-pearl: rgba(4, 20, 28, 1);
+  --codepenioblack-pearl-60: rgba(3, 14, 20, 0.6);
+  --codepeniocod-gray: rgba(18, 18, 18, 1);
+  --codepeniocomet: rgba(90, 95, 115, 1);
+  --codepeniocorduroy: rgba(86, 97, 97, 1);
+  --codepenioelectric-lime: rgba(211, 237, 5, 1);
+  --codepenioemerald: rgba(71, 207, 115, 1);
+  --codepenioeucalyptus: rgba(36, 140, 70, 1);
+  --codepeniofeijoa: rgba(167, 219, 134, 1);
+  --codepeniofern-green: rgba(97, 137, 64, 1);
+  --codepeniogranny-smith: rgba(146, 162, 162, 1);
+  --codepeniogreen-pea: rgba(26, 91, 67, 1);
+  --codepeniomako: rgba(68, 72, 87, 1);
+  --codepeniomine-shaft: rgba(51, 51, 51, 1);
+  --codepenionandor: rgba(82, 92, 92, 1);
+  --codepenionevada: rgba(101, 114, 114, 1);
+  --codepenioolivine: rgba(148, 200, 119, 1);
+  --codepeniooslo-gray: rgba(128, 146, 147, 1);
+  --codepeniosantas-gray: rgba(155, 157, 173, 1);
+  --codepeniosirocco: rgba(107, 120, 121, 1);
+  --codepeniosushi: rgba(111, 162, 62, 1);
+  --codepeniotiber: rgba(7, 39, 51, 1);
+  --codepeniotree-poppy: rgba(254, 157, 34, 1);
+  --codepeniowhite: rgba(255, 255, 255, 1);
+  --codepeniowhite-20: rgba(255, 255, 255, 0.2);
+  --codepeniowhite-50: rgba(255, 255, 255, 0.5);
+  --codepeniowhite-6: rgba(255, 255, 255, 0.06);
+  --codepeniowoodsmoke: rgba(19, 20, 23, 1);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 47.4% 11.2%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+
+    --card: transparent;
+    --card-foreground: 222.2 47.4% 11.2%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 215 20.2% 65.1%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 224 71% 4%;
+    --foreground: 213 31% 91%;
+
+    --muted: 223 47% 11%;
+    --muted-foreground: 215.4 16.3% 56.9%;
+
+    --accent: 216 34% 17%;
+    --accent-foreground: 210 40% 98%;
+
+    --popover: 224 71% 4%;
+    --popover-foreground: 215 20.2% 65.1%;
+
+    --border: 216 34% 17%;
+    --input: 216 34% 17%;
+
+    --card: transparent;
+    --card-foreground: 213 31% 91%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 1.2%;
+
+    --secondary: 222.2 47.4% 11.2%;
+    --secondary-foreground: 210 40% 98%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 216 34% 17%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
