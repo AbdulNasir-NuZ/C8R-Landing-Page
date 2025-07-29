@@ -1,0 +1,1 @@
+export { HeadingWrapperSection } from "./HeadingWrapperSection";

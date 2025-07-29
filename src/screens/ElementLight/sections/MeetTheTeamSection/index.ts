@@ -1,0 +1,1 @@
+export { MeetTheTeamSection } from "./MeetTheTeamSection";

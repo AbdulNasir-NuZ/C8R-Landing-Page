@@ -1,0 +1,1 @@
+export { HeroBottomSection } from "./HeroBottomSection";
